@@ -1,0 +1,4 @@
+[
+  {"fid": "example_age", "shape": "projection", "desc": false, "expr": {"p": "age"}},
+  {"fid": "example_integer", "shape": "projection", "desc": false, "expr": {"fn": "toInteger", "args": [{"p": "score"}]}}
+]

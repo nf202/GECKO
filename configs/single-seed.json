@@ -1,0 +1,12 @@
+{
+  "description": "Single-trajectory configurations, not a multi-seed driver. Supply a new --output directory separately.",
+  "entry": "scripts/gecko_transport2_entry_20261109.py",
+  "common_args": ["--gremlin", "--children", "3", "--generations", "1000", "--hours", "12", "--seed", "20261102", "--max-llm-calls", "100"],
+  "variants": {
+    "D": ["--start", "dense30", "--no-mutation", "--generate"],
+    "E": ["--generate", "--mine-values"],
+    "F": ["--generate", "--mine-values", "--selection", "random"],
+    "Eraw": ["--generate", "--mine-values", "--score", "raw"],
+    "Enodisc": ["--generate", "--mine-values", "--no-discriminative"]
+  }
+}

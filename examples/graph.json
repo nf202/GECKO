@@ -1,0 +1,12 @@
+{
+  "nodes": [
+    {"id": 0, "age": null, "score": -1.5, "name": "é", "flag": true},
+    {"id": 1, "age": 3, "score": -0.5, "name": "ab", "flag": false},
+    {"id": 2, "age": -7, "score": 2.5, "name": null, "flag": null}
+  ],
+  "edges": [
+    {"eid": 0, "src": 0, "dst": 1, "weight": 0},
+    {"eid": 1, "src": 0, "dst": 1, "weight": 0},
+    {"eid": 2, "src": 1, "dst": 1, "weight": 0}
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "schema": "gecko-source-provenance/1",
+  "date": "2026-11-12",
+  "experiment_deployment": "2026-11-09 identity-fixed transport2 runner",
+  "files": [
+    {
+      "path": "scripts/campaign_broad_semantic.py",
+      "original_sha256": "ddd287e4c43efb040c001d6bf17f0c0eaa9d63e006ae148cdf2cb7f097bd6489",
+      "release_sha256": "be2ef1b9407ee09be549bc6fd8f8f0673dfb3f9c93ffc822c3398b3537df462e",
+      "origin": "workspace",
+      "environment_patch": true,
+      "text_normalized": true
+    },
+    {
+      "path": "scripts/campaign_current_path_semantics.py",
+      "original_sha256": "6613b92ba7ec14ba0a92973c35648a0ba7fcf9ecd0fb0ee12066e56d23c1e74d",
+      "release_sha256": "6a9a278d11b4b3b84bd7b417596092f4ea3a908c1e093134487526003ab25fa7",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": true
+    },
+    {
+      "path": "scripts/campaign_evolving_graph.py",
+      "original_sha256": "501f56e0fcd9a0d2de594d5016672d364b17f3b2daa55e422dc4f878ccc9ade5",
+      "release_sha256": "6531f89f893afdfbb9565d2cd2d5f1fd996f8a979c8cb71d51b6f2cdf1c5073c",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": true
+    },
+    {
+      "path": "scripts/campaign_single_seed_frontier.py",
+      "original_sha256": "67ecb6e3c1e23db0a63c41ff71263bfbf2e340a7214cfabb8897650fcfdaf2e7",
+      "release_sha256": "59cc831cc8237cd3a497d4619c8ae730a59297539f50c54b65f0d3277eef9073",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": true
+    },
+    {
+      "path": "scripts/campaign_single_seed_writes.py",
+      "original_sha256": "460d9e77ebca8c4027197a4131c5a2fbc97565980041351b69ca9a0a41b656a2",
+      "release_sha256": "460d9e77ebca8c4027197a4131c5a2fbc97565980041351b69ca9a0a41b656a2",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "scripts/falkordb_frontier_adapter.py",
+      "original_sha256": "fa2c9612a457c47b4a48e3943c7589eeece3342837c6db99a14edeb91287a840",
+      "release_sha256": "fa2c9612a457c47b4a48e3943c7589eeece3342837c6db99a14edeb91287a840",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "scripts/fixture_shapes.py",
+      "original_sha256": "846dfdd230d44e54e0ac141775de83333e6f28c72cd514f44c88737cd8f3328c",
+      "release_sha256": "846dfdd230d44e54e0ac141775de83333e6f28c72cd514f44c88737cd8f3328c",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "scripts/gecko_ast.py",
+      "original_sha256": "37130746e00dc133717a7b581b46039a7d596a3ce2de1f0efa02c820c503b982",
+      "release_sha256": "a4c13428830d3fcde8ea7d7814932315ed5221589a767a5df6148619ea10641f",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": true
+    },
+    {
+      "path": "scripts/gecko_evolve.py",
+      "original_sha256": "40d04a7726c461ddb740e10ad5e8c136414b51280862aceef25e7ad3d18b27c6",
+      "release_sha256": "40d04a7726c461ddb740e10ad5e8c136414b51280862aceef25e7ad3d18b27c6",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "scripts/gecko_gremlin.py",
+      "original_sha256": "84519dcf87a21e024500d706e1a6b6ebd4b09bbc2d4d0bf8da598aa2f6d8cbae",
+      "release_sha256": "c535854368b02b1d1c9361fa1b1233050fdfae8394ba907d37b66bf2153cb151",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": true
+    },
+    {
+      "path": "scripts/gecko_identity.py",
+      "original_sha256": "93f11b8addcb5f08af4c94de79e4a9181321ab22d7b8da2d330a747caba37283",
+      "release_sha256": "93f11b8addcb5f08af4c94de79e4a9181321ab22d7b8da2d330a747caba37283",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "scripts/gecko_llm.py",
+      "original_sha256": "d9da3fa26ccbef4fed001be89cf513c54de3525eefba86ae21dbc2b9afe67e72",
+      "release_sha256": "bcba0b3973f62f0fbf0eb38275fd8bc7a0f283620812d6bf7dbfd22736f1fbd0",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": true
+    },
+    {
+      "path": "scripts/gecko_runtime_guard.py",
+      "original_sha256": "dc6fc74600c5a2e6125572c0866df87e0eb2a5a0da13314945b207ca6b5834d9",
+      "release_sha256": "64615e1bfd70dd87420037e7c28220007e04db67305b71644751fb962d4929ae",
+      "origin": "workspace",
+      "environment_patch": true,
+      "text_normalized": false
+    },
+    {
+      "path": "scripts/gecko_transport2_codec_20261109.py",
+      "original_sha256": "c912a20eac3b939f33f3e5aa3bb6b3ef1cadd3db69fe189b6c180485522bb6b0",
+      "release_sha256": "c912a20eac3b939f33f3e5aa3bb6b3ef1cadd3db69fe189b6c180485522bb6b0",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "scripts/gecko_transport2_entry_20261109.py",
+      "original_sha256": "36b2daadee3eff2b729616a30ccae9c94fa955e4469c0dabecbfb442852e0c9a",
+      "release_sha256": "36b2daadee3eff2b729616a30ccae9c94fa955e4469c0dabecbfb442852e0c9a",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "scripts/graph_evolution.py",
+      "original_sha256": "ef9e433a14bf573cbde4bc6ff27bdc8ea047d7864690386a3a2ddb8cc11750f9",
+      "release_sha256": "ef9e433a14bf573cbde4bc6ff27bdc8ea047d7864690386a3a2ddb8cc11750f9",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "scripts/gremlin_engines.py",
+      "original_sha256": "454383ad4fb849e3ea6aa1142265c5f2ef84e37b68f742c259f8e75312098505",
+      "release_sha256": "abf7724f4680fd3a2d2016149e84bed6454567807e89695681a6be575318a1f3",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": true
+    },
+    {
+      "path": "scripts/llm_queue.py",
+      "original_sha256": "80f373c352bf448d5d1930735ce6660bfd460db5e8c00eda8856083dcab93679",
+      "release_sha256": "80f373c352bf448d5d1930735ce6660bfd460db5e8c00eda8856083dcab93679",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "scripts/local_llm_worker.py",
+      "original_sha256": "0f9cf075cbb72ff0acad82c68e3663623fec001b972ded420e95d83831d8fa3c",
+      "release_sha256": "bbede02caaaab698013deea71073cc7cdd4ec4c1a2fd437e381681c2f7a265b6",
+      "origin": "workspace",
+      "environment_patch": true,
+      "text_normalized": false
+    },
+    {
+      "path": "scripts/semantic_frontier_combinations.py",
+      "original_sha256": "cdb2faa75a18b88ed12245977eae5712aad914d0cef6ec395595b238c0ae1bc3",
+      "release_sha256": "cdb2faa75a18b88ed12245977eae5712aad914d0cef6ec395595b238c0ae1bc3",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "scripts/semantic_function_frontier.py",
+      "original_sha256": "e0b0bb31d78f0061259f7d7a991ff65b4bb6f6b69075af5c83bfc6e58ab99104",
+      "release_sha256": "a1e53323fc5c0ed31f0b1345258b84f2a0e0445e59b088b66788a446fc71b12d",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": true
+    },
+    {
+      "path": "scripts/semantic_list_frontier.py",
+      "original_sha256": "c46af6f0a5676668b8c880201cbec5af4ff22c71a8027ae8b676c047991eabbc",
+      "release_sha256": "c46af6f0a5676668b8c880201cbec5af4ff22c71a8027ae8b676c047991eabbc",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "scripts/semantic_structural_frontier.py",
+      "original_sha256": "550893a3add350de4bedcfd61f5fa27dc6f2c0238d462f6a72b54dd3785dd713",
+      "release_sha256": "550893a3add350de4bedcfd61f5fa27dc6f2c0238d462f6a72b54dd3785dd713",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "scripts/semantic_write_frontier.py",
+      "original_sha256": "508ac8d8f96454fd665b645d2a37f6cdc15439bde7afc3ac0d9c0b074cd8bf84",
+      "release_sha256": "411157d126fe8674216f7ef2c97b68779aa26718824460a9a5cbdaa8b45a3f84",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": true
+    },
+    {
+      "path": "src/gqltest/__init__.py",
+      "original_sha256": "c1e86a20cd64d19bb390df4f06412f054c825fd2a26dda8fda71e8168126898f",
+      "release_sha256": "c1e86a20cd64d19bb390df4f06412f054c825fd2a26dda8fda71e8168126898f",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "src/gqltest/engines.py",
+      "original_sha256": "afd48145e1869720cd75e08548f8c03f53291c3792f964a1d1ed29fdb68c8dad",
+      "release_sha256": "afd48145e1869720cd75e08548f8c03f53291c3792f964a1d1ed29fdb68c8dad",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "src/gqltest/generated_graph_features.py",
+      "original_sha256": "12af147de981eadc50d8779f558045d5140ba1e30149df2f04e1e94a6b05df82",
+      "release_sha256": "12af147de981eadc50d8779f558045d5140ba1e30149df2f04e1e94a6b05df82",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "src/gqltest/model.py",
+      "original_sha256": "44b933daaa3c65f1a37a4e38e77df2475924a5252eb119f05f1718c9988ede5f",
+      "release_sha256": "44b933daaa3c65f1a37a4e38e77df2475924a5252eb119f05f1718c9988ede5f",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "src/gqltest/oracle.py",
+      "original_sha256": "3417af4de0ff03e6062d977089b27e034bec43011cecf63c19ddaea027ff2849",
+      "release_sha256": "3417af4de0ff03e6062d977089b27e034bec43011cecf63c19ddaea027ff2849",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "src/gqltest/path_reference.py",
+      "original_sha256": "71bb661242cce2bca09720b9f751289b436ee23660cb36e39d61b3d77f68ee85",
+      "release_sha256": "71bb661242cce2bca09720b9f751289b436ee23660cb36e39d61b3d77f68ee85",
+      "origin": "experiment-host recovery",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "src/gqltest/predicate.py",
+      "original_sha256": "d30da5792b75a6bea613c523100178fcaa416302c90cc8c2e6b6f4ed9f28c488",
+      "release_sha256": "d30da5792b75a6bea613c523100178fcaa416302c90cc8c2e6b6f4ed9f28c488",
+      "origin": "experiment-host recovery",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "src/gqltest/reference.py",
+      "original_sha256": "d795a47c8afb82053f1c7a4a55f7712e6f8c8fa18a31dc60765acab615db7ee0",
+      "release_sha256": "d795a47c8afb82053f1c7a4a55f7712e6f8c8fa18a31dc60765acab615db7ee0",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "src/gqltest/semantic_suite.py",
+      "original_sha256": "e97f91f26a19fbe0b21bc0765ded452e25635fb6833894f9dba28ee87e288b99",
+      "release_sha256": "e97f91f26a19fbe0b21bc0765ded452e25635fb6833894f9dba28ee87e288b99",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "tests/test_gecko_ast.py",
+      "original_sha256": "92900389d8260d7994d1e49b1eee245d6eefba7ae76e3497f5bcdb0769fb87b2",
+      "release_sha256": "92900389d8260d7994d1e49b1eee245d6eefba7ae76e3497f5bcdb0769fb87b2",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "tests/test_gecko_gremlin.py",
+      "original_sha256": "3ef2b43ad01fe72e3e805795527816b6c624554ff6748f0b8423e6f869c7bd04",
+      "release_sha256": "e3e1e10d121398e6ce03f5dc8973527990366f70a5c3c050e16288f14ce132a1",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": true
+    },
+    {
+      "path": "tests/test_gecko_v2.py",
+      "original_sha256": "95caebd08569ccbb483b608973f5ba5309bb7e02c33a7b34df5ebfeee0e2888f",
+      "release_sha256": "95caebd08569ccbb483b608973f5ba5309bb7e02c33a7b34df5ebfeee0e2888f",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "tests/test_graph_evolution.py",
+      "original_sha256": "8f4726fcf8dc5f2204941e287936a2f975ab031500d77edb01f9367810b1b869",
+      "release_sha256": "8f4726fcf8dc5f2204941e287936a2f975ab031500d77edb01f9367810b1b869",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "tests/test_semantic_frontier_combinations.py",
+      "original_sha256": "20cecf4c23fd491d9d29cbde368c4edd228867ae046e24dab5ff83a4c1a57b96",
+      "release_sha256": "20cecf4c23fd491d9d29cbde368c4edd228867ae046e24dab5ff83a4c1a57b96",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "tests/test_semantic_list_frontier.py",
+      "original_sha256": "eeb78e3ad4aaa632e6149720a0258f7e372c09a8a0174c1071f6e44c242e5da3",
+      "release_sha256": "eeb78e3ad4aaa632e6149720a0258f7e372c09a8a0174c1071f6e44c242e5da3",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "tests/test_semantic_structural_frontier.py",
+      "original_sha256": "cad8f23ba25baf409514eaac5bf58c3300f838d7df3ff524258a2df76c346b29",
+      "release_sha256": "cad8f23ba25baf409514eaac5bf58c3300f838d7df3ff524258a2df76c346b29",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "tests/test_semantic_write_frontier.py",
+      "original_sha256": "a081af1806d344404a6e4ae6f74e7f98c3ea8f4e6e6aa4686353f14d1eb7ead5",
+      "release_sha256": "a081af1806d344404a6e4ae6f74e7f98c3ea8f4e6e6aa4686353f14d1eb7ead5",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "tests/test_single_seed_frontier.py",
+      "original_sha256": "d42476e39b9b35621d871f6770fe8040cd61fd463972e5d149cb8555a488e19a",
+      "release_sha256": "d42476e39b9b35621d871f6770fe8040cd61fd463972e5d149cb8555a488e19a",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    },
+    {
+      "path": "scripts/java/GremlinBatchRunner.java",
+      "original_sha256": "b890a6b03fe6b51eb47f01baa296f651aee97605c11e75300b8df2ff809b1bfe",
+      "release_sha256": "b890a6b03fe6b51eb47f01baa296f651aee97605c11e75300b8df2ff809b1bfe",
+      "origin": "workspace",
+      "environment_patch": false,
+      "text_normalized": false
+    }
+  ]
+}

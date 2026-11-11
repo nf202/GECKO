@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gecko-graph-testing"
+version = "0.1.0"
+description = "Co-evolving property graphs and query features for graph database testing"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+engines = ["neo4j==5.28.2", "falkordb==1.8.1", "redis==8.1.0"]
+legacy = ["kuzu==0.11.3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "scripts"]
